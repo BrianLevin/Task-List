@@ -88,3 +88,8 @@ function clearTasks() {
     // Clear from LS
     clearTasksFromLocalStorage();
   }
+
+  // Clear Tasks from LS
+function clearTasksFromLocalStorage() {
+    localStorage.clear();
+  }
